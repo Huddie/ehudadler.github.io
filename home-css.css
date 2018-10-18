@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+.navbar{
+	width: 100%;
+	height: 200px;
+	background: linear-gradient(#d0d0d0 20%, #ffffff 50%);
+}
+.info{
+	padding-top: 20px;
+	padding-left: 50px;
+}
+.info-text{
+	color: black;
+	font-size: 1em;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+}
+.projects-title-container{
+	display: flex;
+	align-items: flex-end;
+	padding-left: 50px;
+}
+.projects-title{
+	color: black;
+	font-size: 2em;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+}
+.projects{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: visible;
+}
+.left-container{
+	overflow: visible;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 100px;
+}
+.left-text-container{
+	padding-left: 30px;
+	display: flex;
+	flex-direction: column;
+}
+.graphfun{
+	box-shadow: 0px 1px 2px 2px rgba(0,0,0,0.3);
+	border-radius: 4px;
+	width: 600px;
+}
+.graph-title{
+	padding-top: 10px;
+	font-size: 3em;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	color: black
+}
+.graph-summery{
+	padding-top: 10px;
+	font-size: 1em;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	color: black
+}
+
+.qc-title{
+	padding-top: 10px;
+	font-size: 3em;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	color: firebrick
+}
+.qc-summery{
+	padding-top: 10px;
+	font-size: 1em;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	color: black
+}
+
+
+.left-checkout-github-button{
+	background-color: transparent;
+}
+.left-link-button{
+  	height: 40px;
+	padding-bottom: 20px;
+}
+.MSP-text{
+	color:black;
+}
+
+.date-text{
+	font-size: 1em;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	color: black
+}
+.date-text-light{
+	font-size: 1em;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	color: aliceblue
+}
+.cell{
+	margin-left: 100px;
+}
+
+.right-container{
+	overflow: visible;
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 120px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.right-text-container{
+	padding-right: 30px;
+	display: flex;
+	flex-direction: column;
+}
+.QCXIcon{
+  display: block;
+  max-width: 55%;
+  max-height: 75px;
+  width: auto;
+  height: auto;
+}
+.right-title{
+	padding-top: 10px;
+	font-size: 3em;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	color: red
+}
+.right-summery{
+	padding-top: 10px;
+	font-size: 1em;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	color: black
+}
+.right-Link-Button{
+	background-color: transparent;
+	height: 40px;
+	padding-bottom: 20px;
+}
+
+@media all and (max-width: 1100px){
+.graphfun-container {
+	overflow: visible;
+	display: flex;
+	flex-direction: column-reverse;
+	margin-top: 120px;
+	margin-left: 100px;
+}
+.MSP-text{
+	color:white;
+}
+}
+
+@media all and (max-width: 800px){
+.graphfun-container {
+	overflow: visible;
+	display: flex;
+	flex-direction: column-reverse;
+	margin-top: 120px;
+	margin-left: 100px;
+}
+.MSP-text{
+	color:white;
+}
+.graph-title{
+	padding-top: 10px;
+	font-size: 2em;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	color: aliceblue
+}
+.graphfun{
+	box-shadow: 0px 1px 2px 2px rgba(0,0,0,0.3);
+	border-radius: 4px;
+	width: 350px;
+}
+
+.right-container{
+	overflow: hidden;
+	display: flex;
+	flex-direction: column-reverse;
+	margin-top: 120px;
+	margin-left: 100px;
+}
+.QCXIcon{
+	border-radius: 4px;
+	width: 400px;
+}
+.right-title{
+	padding-top: 10px;
+	font-size: 2em;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	color: red
+}	
+}
+
