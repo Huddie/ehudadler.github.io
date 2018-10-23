@@ -151,57 +151,57 @@
 }
 
 @media all and (max-width: 1100px){
-.graphfun-container {
-	overflow: visible;
-	display: flex;
-	flex-direction: column-reverse;
-	margin-top: 120px;
-	margin-left: 100px;
-}
-.MSP-text{
-	color:white;
-}
+	.graphfun-container {
+		overflow: visible;
+		display: flex;
+		flex-direction: column-reverse;
+		margin-top: 120px;
+		margin-left: 100px;
+	}
+	.graph-title{
+		color:black;
+	}
 }
 
 @media all and (max-width: 800px){
-.graphfun-container {
-	overflow: visible;
-	display: flex;
-	flex-direction: column-reverse;
-	margin-top: 120px;
-	margin-left: 100px;
-}
-.MSP-text{
-	color:white;
-}
-.graph-title{
-	padding-top: 10px;
-	font-size: 2em;
-	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
-	color: aliceblue
-}
-.graphfun{
-	box-shadow: 0px 1px 2px 2px rgba(0,0,0,0.3);
-	border-radius: 4px;
-	width: 350px;
-}
+	.graphfun-container {
+		overflow: visible;
+		display: flex;
+		flex-direction: column-reverse;
+		margin-top: 120px;
+		margin-left: 100px;
+	}
+	.MSP-text{
+		color:black;
+	}
+	.graph-title{
+		padding-top: 10px;
+		font-size: 2em;
+		font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+		color: black
+	}
+	.graphfun{
+		box-shadow: 0px 1px 2px 2px rgba(0,0,0,0.3);
+		border-radius: 4px;
+		width: 350px;
+	}
 
-.right-container{
-	overflow: hidden;
-	display: flex;
-	flex-direction: column-reverse;
-	margin-top: 120px;
-	margin-left: 100px;
-}
-.QCXIcon{
-	border-radius: 4px;
-	width: 400px;
-}
-.right-title{
-	padding-top: 10px;
-	font-size: 2em;
-	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
-	color: red
-}	
+	.right-container{
+		overflow: hidden;
+		display: flex;
+		flex-direction: column-reverse;
+		margin-top: 120px;
+		margin-left: 100px;
+	}
+	.QCXIcon{
+		border-radius: 4px;
+		width: 400px;
+	}
+	.right-title{
+		padding-top: 10px;
+		font-size: 2em;
+		font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+		color: red
+	}	
 }
 
