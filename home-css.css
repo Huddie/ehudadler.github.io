@@ -8,6 +8,20 @@
 .info{
 	padding-top: 20px;
 	padding-left: 50px;
+	display: flex;
+	flex-direction: row;
+}
+.nav-item{
+	color: navy;
+	font-size: 1em;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	height: 90px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 40px;
+    display: table-cell;
+    vertical-align: middle;
+	text-decoration: none;
 }
 .info-text{
 	color: black;
