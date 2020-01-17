@@ -54,7 +54,7 @@ div.blockContainer {
 
 div.block {
     width: 75%;
-    margin: 0.2cm;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     border-radius: 5px;
