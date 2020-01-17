@@ -53,7 +53,7 @@ div.blockContainer {
 }
 
 div.block {
-    width: 50%;
+    width: 75%;
     margin: 0.2cm;
     display: flex;
     flex-direction: row;
@@ -104,3 +104,7 @@ img.company {
     width: auto;
     height: 1.5cm;
 }
+
+a:link {
+    text-decoration: none ;
+}x
