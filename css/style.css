@@ -2,46 +2,6 @@
 body {
     background-color: rgba(242, 242, 242, 1);
 }
-div.nav {
-    padding-top: 1cm;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-div.centerNavItem {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-img.navMe {
-    width: 1.5cm;
-    height: auto;
-}
-
-a.navItemLeft {
-    margin-bottom: 1cm;
-    padding-right: 2cm;
-    font-family: 'Raleway', sans-serif;
-    font-size:  20px;
-    font-weight: 400;
-}
-
-a.navItemRight {
-    margin-bottom: 1cm;
-    padding-left: 2cm;
-    font-family: 'Raleway', sans-serif;
-    font-size:  20px;
-    font-weight: 400;
-}
-
-a.navItemCenter {
-    margin-bottom: 0.4cm;
-    font-family: 'Raleway', sans-serif;
-    font-size:  25px;
-    font-weight: 400;
-}
 
 
 div.blockContainer {
@@ -68,43 +28,33 @@ div.blockTextContainer {
 }
 
 section.detail {
-    margin-top: 2cm;
-}
-
-Text.blockTitle {
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-size:  15px;
-    font-weight: 400;
+    margin-top: 4cm;
 }
 
 Text.blockText {
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size:  25px;
-    font-weight: 700;
+    padding-bottom: 10px;
+    font-family: 'menlo', sans-serif;
+    font-size:  16px;
+    font-weight: 300;
 }
 
-
-div.imageDetail {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-img.company {
-    padding: 5px;
-    padding-right: 15px;
-    width: auto;
-    height: 1.5cm;
+Text.blockText2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    font-family: 'menlo', sans-serif;
+    font-size:  16px;
+    font-weight: 300;
 }
 
 a:link {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-family: 'menlo', sans-serif;
+    font-size:  16px;
+    font-weight: 300;
     text-decoration: none ;
 }
